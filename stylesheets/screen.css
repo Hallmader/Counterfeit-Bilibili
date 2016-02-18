@@ -1974,7 +1974,7 @@ aside.aside-2 {
     .list-controller .weekDay-active .icon {
       width: 54px;
       height: 54px;
-      background: transparent url('../images/animate-list.png?1454644310') no-repeat;
+      background: transparent url(http://static.hdslb.com/images/base/bangumi-weekday.png) no-repeat;
       position: absolute;
       left: 12px;
       top: -20px; }
