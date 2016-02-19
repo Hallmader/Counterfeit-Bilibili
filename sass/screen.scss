@@ -670,6 +670,7 @@ ul.navlist-box {
     height: 220px;
     float: right;
     overflow: hidden;
+    margin-left: -100%;
 }
 
 .indextop-video-listpanel {
@@ -2790,7 +2791,7 @@ footer .inner {
                 left: -10px;
             }
             .nav-gif {
-                margin-left: 0;
+                margin-left: -25px;
             }
         }
     }
@@ -2835,5 +2836,8 @@ footer .inner {
                 width: 320px;
             }
         }
+    }
+    .sidebar{
+        top:5%;
     }
 }

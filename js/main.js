@@ -232,6 +232,7 @@ function dragItems(ele) {
         return true;
     };
     ele.ondrop = function(e) {
+        e.preventDefault();
         e.dataTransfer.dropEffect = "move";
         $(this).insertAfter('#' + e.dataTransfer.getData("text"));
     };
@@ -253,7 +254,7 @@ function asideAnimationCtrl() {
         $(this).
         removeClass('mobile-animate-backward').
         addClass('mobile-animate-forward').
-        bind('animationend' || 'webkitAnimationEnd',
+        bind('animationend webkitAnimationEnd',
             function() {
                 $(".sidebar-gif img").addClass('show');
                 $(".sidebar-gif").removeClass('mobile-animate-forward').addClass('mobile-animate-shake');
@@ -263,7 +264,7 @@ function asideAnimationCtrl() {
         $(this).
         removeClass('mobile-animate-shake').
         addClass('mobile-animate-backward').
-        bind('animationend' || 'webkitAnimationEnd',
+        bind('animationend webkitAnimationEnd',
             function() {
                 $(".sidebar-gif").
                 removeClass('mobile-animate-shake').

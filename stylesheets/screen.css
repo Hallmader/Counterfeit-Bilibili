@@ -747,9 +747,10 @@ ul.navlist-box {
   width: 720px;
   height: 220px;
   float: right;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-left: -100%; }
 
-/* line 676, ../sass/screen.scss */
+/* line 677, ../sass/screen.scss */
 .indextop-video-listpanel li {
   float: left;
   position: relative;
@@ -759,15 +760,15 @@ ul.navlist-box {
   margin-bottom: 20px;
   border-radius: 5px;
   overflow: hidden; }
-  /* line 686, ../sass/screen.scss */
+  /* line 687, ../sass/screen.scss */
   .indextop-video-listpanel li:hover .mask {
     background-color: rgba(0, 0, 0, 0.7);
     transition: all 0s linear; }
-  /* line 690, ../sass/screen.scss */
+  /* line 691, ../sass/screen.scss */
   .indextop-video-listpanel li:hover .info {
     top: 21px;
     height: 0; }
-  /* line 695, ../sass/screen.scss */
+  /* line 696, ../sass/screen.scss */
   .indextop-video-listpanel li .mask {
     position: absolute;
     top: 0;
@@ -776,16 +777,16 @@ ul.navlist-box {
     right: 0;
     background-color: transparent;
     transition: all 0.2s linear; }
-  /* line 700, ../sass/screen.scss */
+  /* line 701, ../sass/screen.scss */
   .indextop-video-listpanel li .video-img {
     width: 160px;
     height: 100px; }
-    /* line 703, ../sass/screen.scss */
+    /* line 704, ../sass/screen.scss */
     .indextop-video-listpanel li .video-img img {
       width: 100%;
       height: 100%;
       border-radius: 5px; }
-  /* line 709, ../sass/screen.scss */
+  /* line 710, ../sass/screen.scss */
   .indextop-video-listpanel li .info {
     position: absolute;
     margin-top: -13px;
@@ -793,7 +794,7 @@ ul.navlist-box {
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 20%, rgba(0, 0, 0, 0.2) 35%, #000000);
     height: 21px;
     bottom: 0; }
-    /* line 716, ../sass/screen.scss */
+    /* line 717, ../sass/screen.scss */
     .indextop-video-listpanel li .info h2 {
       font-size: 12px;
       color: #fff;
@@ -801,7 +802,7 @@ ul.navlist-box {
       line-height: 1.5;
       height: 35px;
       overflow: hidden; }
-    /* line 724, ../sass/screen.scss */
+    /* line 725, ../sass/screen.scss */
     .indextop-video-listpanel li .info p {
       color: #99A2AA;
       font-size: 12px;
@@ -809,25 +810,25 @@ ul.navlist-box {
       line-height: 1.5;
       padding-left: 5px; }
 
-/* line 736, ../sass/screen.scss */
+/* line 737, ../sass/screen.scss */
 .part2 {
   width: 100%;
   margin-top: 50px; }
-  /* line 739, ../sass/screen.scss */
+  /* line 740, ../sass/screen.scss */
   .part2 .box-left {
     overflow: hidden;
     width: 880px;
     display: inline-block; }
-    /* line 743, ../sass/screen.scss */
+    /* line 744, ../sass/screen.scss */
     .part2 .box-left .part2-top {
       width: 100%;
       display: inline-block; }
-      /* line 746, ../sass/screen.scss */
+      /* line 747, ../sass/screen.scss */
       .part2 .box-left .part2-top h2 {
         display: inline-block;
         font-size: 24px;
         margin-right: 20px; }
-        /* line 750, ../sass/screen.scss */
+        /* line 751, ../sass/screen.scss */
         .part2 .box-left .part2-top h2 i {
           background: transparent url('../images/icons.png?1455092879') -84px -82px no-repeat;
           display: inline-block;
@@ -835,7 +836,7 @@ ul.navlist-box {
           height: 27px;
           margin-right: 20px;
           vertical-align: -2px; }
-      /* line 759, ../sass/screen.scss */
+      /* line 760, ../sass/screen.scss */
       .part2 .box-left .part2-top .hr {
         display: inline-block;
         width: 1px;
@@ -843,33 +844,33 @@ ul.navlist-box {
         height: 12px;
         margin: 0 10px;
         vertical-align: middle; }
-      /* line 767, ../sass/screen.scss */
+      /* line 768, ../sass/screen.scss */
       .part2 .box-left .part2-top span {
         font-size: 12px;
         color: #6D757A; }
 
-/* line 775, ../sass/screen.scss */
+/* line 776, ../sass/screen.scss */
 .aside-1 {
   float: right;
   display: inline-block; }
-  /* line 778, ../sass/screen.scss */
+  /* line 779, ../sass/screen.scss */
   .aside-1 .part2-aside {
     margin-bottom: 10px; }
-    /* line 780, ../sass/screen.scss */
+    /* line 781, ../sass/screen.scss */
     .aside-1 .part2-aside ul {
       width: 260px;
       background-color: #E5E9EF;
       height: 34px;
       border-radius: 5px;
       margin-bottom: 5px; }
-      /* line 786, ../sass/screen.scss */
+      /* line 787, ../sass/screen.scss */
       .aside-1 .part2-aside ul li {
         float: left;
         font-size: 12px;
         color: #6D757A;
         line-height: 34px;
         padding: 0 15px; }
-        /* line 792, ../sass/screen.scss */
+        /* line 793, ../sass/screen.scss */
         .aside-1 .part2-aside ul li a {
           color: inherit;
           text-decoration: inherit;
@@ -879,10 +880,10 @@ ul.navlist-box {
           /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
           .aside-1 .part2-aside ul li a:active, .aside-1 .part2-aside ul li a:focus {
             outline: none; }
-          /* line 796, ../sass/screen.scss */
+          /* line 797, ../sass/screen.scss */
           .aside-1 .part2-aside ul li a:hover {
             color: #00A1D6; }
-      /* line 801, ../sass/screen.scss */
+      /* line 802, ../sass/screen.scss */
       .aside-1 .part2-aside ul .hr {
         display: inline-block;
         width: 1px;
@@ -891,40 +892,40 @@ ul.navlist-box {
         vertical-align: middle;
         float: left;
         margin-top: 10px; }
-  /* line 813, ../sass/screen.scss */
+  /* line 814, ../sass/screen.scss */
   .aside-1 .image-box img {
     border-radius: 5px; }
 
-/* line 819, ../sass/screen.scss */
+/* line 820, ../sass/screen.scss */
 .video-list {
   width: 880px;
   display: inline-block; }
-  /* line 822, ../sass/screen.scss */
+  /* line 823, ../sass/screen.scss */
   .video-list li {
     float: left;
     width: 160px;
     margin-right: 15px;
     margin-top: 18px;
     cursor: pointer; }
-    /* line 829, ../sass/screen.scss */
+    /* line 830, ../sass/screen.scss */
     .video-list li:hover .video-time {
       opacity: 1; }
-    /* line 832, ../sass/screen.scss */
+    /* line 833, ../sass/screen.scss */
     .video-list li:hover a {
       color: #00A1D6; }
-    /* line 836, ../sass/screen.scss */
+    /* line 837, ../sass/screen.scss */
     .video-list li .image-box {
       position: relative;
       width: 160px;
       height: 100px; }
-      /* line 840, ../sass/screen.scss */
+      /* line 841, ../sass/screen.scss */
       .video-list li .image-box img {
         display: block;
         width: 100%;
         height: 100%;
         border-radius: 5px;
         vertical-align: bottom; }
-    /* line 848, ../sass/screen.scss */
+    /* line 849, ../sass/screen.scss */
     .video-list li .video-time {
       background-color: rgba(0, 0, 0, 0.65);
       position: absolute;
@@ -940,7 +941,7 @@ ul.navlist-box {
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
       opacity: 0;
       transition: all 0.2s linear; }
-    /* line 863, ../sass/screen.scss */
+    /* line 864, ../sass/screen.scss */
     .video-list li .ad {
       background-color: rgba(0, 0, 0, 0.65);
       position: absolute;
@@ -953,7 +954,7 @@ ul.navlist-box {
       color: #fff;
       padding: 0 10px;
       border-radius: 0 5px 0 5px; }
-    /* line 876, ../sass/screen.scss */
+    /* line 877, ../sass/screen.scss */
     .video-list li a {
       display: block;
       font-size: 12px;
@@ -970,28 +971,28 @@ ul.navlist-box {
       /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
       .video-list li a:active, .video-list li a:focus {
         outline: none; }
-      /* line 887, ../sass/screen.scss */
+      /* line 888, ../sass/screen.scss */
       .video-list li a:hover {
         color: #00A1D6; }
 
-/* line 895, ../sass/screen.scss */
+/* line 896, ../sass/screen.scss */
 .part-special {
   width: 100%;
   margin-top: 50px; }
-  /* line 898, ../sass/screen.scss */
+  /* line 899, ../sass/screen.scss */
   .part-special .box-left {
     width: 880px;
     display: inline-block; }
-  /* line 902, ../sass/screen.scss */
+  /* line 903, ../sass/screen.scss */
   .part-special .part-top {
     width: 100%;
     display: inline-block; }
-    /* line 905, ../sass/screen.scss */
+    /* line 906, ../sass/screen.scss */
     .part-special .part-top h2 {
       display: inline-block;
       font-size: 24px;
       margin-right: 20px; }
-      /* line 909, ../sass/screen.scss */
+      /* line 910, ../sass/screen.scss */
       .part-special .part-top h2 i {
         background: transparent url('../images/icons.png?1455092879') -84px -143px no-repeat;
         display: inline-block;
@@ -999,19 +1000,19 @@ ul.navlist-box {
         height: 27px;
         margin-right: 20px;
         vertical-align: -2px; }
-    /* line 918, ../sass/screen.scss */
+    /* line 919, ../sass/screen.scss */
     .part-special .part-top span {
       font-size: 12px;
       color: #6D757A; }
-      /* line 921, ../sass/screen.scss */
+      /* line 922, ../sass/screen.scss */
       .part-special .part-top span i {
         color: #00A1D6; }
-    /* line 925, ../sass/screen.scss */
+    /* line 926, ../sass/screen.scss */
     .part-special .part-top .btn-right {
       float: right;
       display: inline-block;
       margin-right: 20px; }
-    /* line 930, ../sass/screen.scss */
+    /* line 931, ../sass/screen.scss */
     .part-special .part-top .btn-reset {
       display: inline-block;
       cursor: pointer;
@@ -1020,14 +1021,14 @@ ul.navlist-box {
       border-radius: 5px;
       border: 1px solid #CCD0D7;
       transition: all 0.1s linear; }
-      /* line 938, ../sass/screen.scss */
+      /* line 939, ../sass/screen.scss */
       .part-special .part-top .btn-reset:hover {
         background-color: #CCD0D7; }
-        /* line 940, ../sass/screen.scss */
+        /* line 941, ../sass/screen.scss */
         .part-special .part-top .btn-reset:hover a {
           -webkit-transform: rotate(360deg);
           transform: rotate(360deg); }
-      /* line 945, ../sass/screen.scss */
+      /* line 946, ../sass/screen.scss */
       .part-special .part-top .btn-reset a {
         display: inline-block;
         width: 12px;
@@ -1035,7 +1036,7 @@ ul.navlist-box {
         margin-top: 5px;
         background: transparent url('../images/icons.png?1455092879') -475px -89px no-repeat;
         transition: all 0.1s linear; }
-    /* line 954, ../sass/screen.scss */
+    /* line 955, ../sass/screen.scss */
     .part-special .part-top .btn-more {
       display: inline-block;
       cursor: pointer;
@@ -1045,10 +1046,10 @@ ul.navlist-box {
       border: 1px solid #CCD0D7;
       transition: all 0.1s linear;
       vertical-align: bottom; }
-      /* line 963, ../sass/screen.scss */
+      /* line 964, ../sass/screen.scss */
       .part-special .part-top .btn-more:hover {
         background-color: #CCD0D7; }
-      /* line 966, ../sass/screen.scss */
+      /* line 967, ../sass/screen.scss */
       .part-special .part-top .btn-more a {
         display: inline-block;
         height: 22px;
@@ -1061,7 +1062,7 @@ ul.navlist-box {
         /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
         .part-special .part-top .btn-more a:active, .part-special .part-top .btn-more a:focus {
           outline: none; }
-        /* line 973, ../sass/screen.scss */
+        /* line 974, ../sass/screen.scss */
         .part-special .part-top .btn-more a:after {
           content: '';
           display: inline-block;
@@ -1072,11 +1073,11 @@ ul.navlist-box {
           margin-left: 5px;
           margin-right: -10px; }
 
-/* line 988, ../sass/screen.scss */
+/* line 989, ../sass/screen.scss */
 .video-list {
   width: 880px;
   display: inline-block; }
-  /* line 991, ../sass/screen.scss */
+  /* line 992, ../sass/screen.scss */
   .video-list li {
     float: left;
     width: 160px;
@@ -1084,19 +1085,19 @@ ul.navlist-box {
     margin-top: 18px;
     overflow: hidden;
     cursor: pointer; }
-    /* line 999, ../sass/screen.scss */
+    /* line 1000, ../sass/screen.scss */
     .video-list li:hover .mask {
       opacity: 1;
       filter: alpha(opacity=100); }
-    /* line 1004, ../sass/screen.scss */
+    /* line 1005, ../sass/screen.scss */
     .video-list li .image-box {
       position: relative; }
-      /* line 1006, ../sass/screen.scss */
+      /* line 1007, ../sass/screen.scss */
       .video-list li .image-box img {
         width: 100%;
         height: 100%;
         border-radius: 5px; }
-    /* line 1012, ../sass/screen.scss */
+    /* line 1013, ../sass/screen.scss */
     .video-list li .mask {
       cursor: pointer;
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
@@ -1109,7 +1110,7 @@ ul.navlist-box {
       border-radius: 5px;
       background-color: rgba(0, 0, 0, 0.65);
       transition: all 0.2s linear; }
-      /* line 1019, ../sass/screen.scss */
+      /* line 1020, ../sass/screen.scss */
       .video-list li .mask h2 {
         height: 30px;
         width: 100%;
@@ -1120,7 +1121,7 @@ ul.navlist-box {
         top: 50%;
         margin-top: -15px;
         text-align: center; }
-        /* line 1029, ../sass/screen.scss */
+        /* line 1030, ../sass/screen.scss */
         .video-list li .mask h2:before {
           content: '';
           display: inline-block;
@@ -1129,7 +1130,7 @@ ul.navlist-box {
           margin-right: 10px;
           background-color: #F25D8E;
           border-radius: 50%; }
-    /* line 1040, ../sass/screen.scss */
+    /* line 1041, ../sass/screen.scss */
     .video-list li a {
       display: block;
       font-size: 12px;
@@ -1146,15 +1147,15 @@ ul.navlist-box {
       /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
       .video-list li a:active, .video-list li a:focus {
         outline: none; }
-      /* line 1051, ../sass/screen.scss */
+      /* line 1052, ../sass/screen.scss */
       .video-list li a:hover {
         color: #00A1D6; }
 
-/* line 1058, ../sass/screen.scss */
+/* line 1059, ../sass/screen.scss */
 .personal-info {
   width: 160px;
   position: relative; }
-  /* line 1062, ../sass/screen.scss */
+  /* line 1063, ../sass/screen.scss */
   .personal-info .title span {
     width: 40px;
     height: 40px;
@@ -1163,13 +1164,13 @@ ul.navlist-box {
     margin-top: -20px;
     margin-left: 5px;
     border: 3px solid #fff; }
-    /* line 1070, ../sass/screen.scss */
+    /* line 1071, ../sass/screen.scss */
     .personal-info .title span img {
       display: block;
       width: 40px;
       height: 40px;
       border-radius: 50%; }
-  /* line 1077, ../sass/screen.scss */
+  /* line 1078, ../sass/screen.scss */
   .personal-info .title a {
     width: 105px;
     position: absolute;
@@ -1178,46 +1179,46 @@ ul.navlist-box {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap; }
-  /* line 1088, ../sass/screen.scss */
+  /* line 1089, ../sass/screen.scss */
   .personal-info .id-num span {
     font-size: 12px;
     color: #6D757A; }
-    /* line 1091, ../sass/screen.scss */
+    /* line 1092, ../sass/screen.scss */
     .personal-info .id-num span i {
       width: 12px;
       height: 12px;
       display: inline-block;
       vertical-align: -2px;
       padding-right: 5px; }
-  /* line 1099, ../sass/screen.scss */
+  /* line 1100, ../sass/screen.scss */
   .personal-info .id-num .name {
     padding-right: 20px; }
-    /* line 1101, ../sass/screen.scss */
+    /* line 1102, ../sass/screen.scss */
     .personal-info .id-num .name i {
       background: transparent url('../images/icons.png?1455092879') -282px -154px no-repeat; }
-  /* line 1106, ../sass/screen.scss */
+  /* line 1107, ../sass/screen.scss */
   .personal-info .id-num .num i {
     background: transparent url('../images/icons.png?1455092879') -282px -282px no-repeat; }
 
-/* line 1113, ../sass/screen.scss */
+/* line 1114, ../sass/screen.scss */
 aside.aside-2 {
   float: right;
   width: 260px;
   display: inline-block;
   overflow: hidden; }
-  /* line 1118, ../sass/screen.scss */
+  /* line 1119, ../sass/screen.scss */
   aside.aside-2 .part-aside {
     margin-bottom: 10px; }
-    /* line 1120, ../sass/screen.scss */
+    /* line 1121, ../sass/screen.scss */
     aside.aside-2 .part-aside ul {
       width: 260px;
       height: 34px;
       border-radius: 5px;
       margin-bottom: 5px; }
-      /* line 1125, ../sass/screen.scss */
+      /* line 1126, ../sass/screen.scss */
       aside.aside-2 .part-aside ul .live-active {
         border-bottom: 1px solid #00A1D6; }
-        /* line 1127, ../sass/screen.scss */
+        /* line 1128, ../sass/screen.scss */
         aside.aside-2 .part-aside ul .live-active:after {
           content: '';
           display: inline-block;
@@ -1229,7 +1230,7 @@ aside.aside-2 {
           left: 50%;
           bottom: 0;
           margin-left: -3px; }
-      /* line 1140, ../sass/screen.scss */
+      /* line 1141, ../sass/screen.scss */
       aside.aside-2 .part-aside ul li {
         position: relative;
         float: left;
@@ -1237,7 +1238,7 @@ aside.aside-2 {
         color: #000;
         line-height: 25px;
         margin-right: 20px; }
-        /* line 1147, ../sass/screen.scss */
+        /* line 1148, ../sass/screen.scss */
         aside.aside-2 .part-aside ul li a {
           color: inherit;
           text-decoration: inherit;
@@ -1247,10 +1248,10 @@ aside.aside-2 {
           /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
           aside.aside-2 .part-aside ul li a:active, aside.aside-2 .part-aside ul li a:focus {
             outline: none; }
-          /* line 1151, ../sass/screen.scss */
+          /* line 1152, ../sass/screen.scss */
           aside.aside-2 .part-aside ul li a:hover {
             color: #00A1D6; }
-      /* line 1156, ../sass/screen.scss */
+      /* line 1157, ../sass/screen.scss */
       aside.aside-2 .part-aside ul .hr {
         display: inline-block;
         width: 1px;
@@ -1260,19 +1261,19 @@ aside.aside-2 {
         float: left;
         margin-top: 10px; }
 
-/* line 1169, ../sass/screen.scss */
+/* line 1170, ../sass/screen.scss */
 .carousel-live-box {
   width: 780px;
   margin-left: -200%; }
-  /* line 1172, ../sass/screen.scss */
+  /* line 1173, ../sass/screen.scss */
   .carousel-live-box .image-box {
     float: left;
     width: 260px;
     cursor: pointer; }
-    /* line 1177, ../sass/screen.scss */
+    /* line 1178, ../sass/screen.scss */
     .carousel-live-box .image-box:hover a {
       color: #00A1D6; }
-    /* line 1181, ../sass/screen.scss */
+    /* line 1182, ../sass/screen.scss */
     .carousel-live-box .image-box a {
       color: inherit;
       text-decoration: inherit;
@@ -1281,21 +1282,21 @@ aside.aside-2 {
       /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
       .carousel-live-box .image-box a:active, .carousel-live-box .image-box a:focus {
         outline: none; }
-    /* line 1185, ../sass/screen.scss */
+    /* line 1186, ../sass/screen.scss */
     .carousel-live-box .image-box img {
       border-radius: 5px; }
-  /* line 1189, ../sass/screen.scss */
+  /* line 1190, ../sass/screen.scss */
   .carousel-live-box .login-box {
     width: 260px;
     float: left; }
-    /* line 1192, ../sass/screen.scss */
+    /* line 1193, ../sass/screen.scss */
     .carousel-live-box .login-box h2 {
       font-size: 12px;
       color: #99A2AA;
       text-align: center;
       min-height: 300px;
       line-height: 300px; }
-      /* line 1198, ../sass/screen.scss */
+      /* line 1199, ../sass/screen.scss */
       .carousel-live-box .login-box h2:before {
         content: "";
         display: inline-block;
@@ -1305,15 +1306,15 @@ aside.aside-2 {
         height: 20px;
         background: transparent url('../images/state.png?1453016605') center -598px no-repeat; }
 
-/* line 1211, ../sass/screen.scss */
+/* line 1212, ../sass/screen.scss */
 .rank-box {
   width: 260px;
   float: left; }
-  /* line 1214, ../sass/screen.scss */
+  /* line 1215, ../sass/screen.scss */
   .rank-box li {
     margin-bottom: 10px;
     position: relative; }
-  /* line 1218, ../sass/screen.scss */
+  /* line 1219, ../sass/screen.scss */
   .rank-box .rank {
     position: absolute;
     top: 0;
@@ -1327,19 +1328,19 @@ aside.aside-2 {
     border-radius: 3px;
     text-align: center;
     line-height: 18px; }
-  /* line 1232, ../sass/screen.scss */
+  /* line 1233, ../sass/screen.scss */
   .rank-box .avater {
     display: inline-block;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-left: 30px; }
-    /* line 1238, ../sass/screen.scss */
+    /* line 1239, ../sass/screen.scss */
     .rank-box .avater img {
       width: 100%;
       height: 100%;
       border-radius: 50%; }
-  /* line 1244, ../sass/screen.scss */
+  /* line 1245, ../sass/screen.scss */
   .rank-box .rank-info {
     display: inline-block;
     color: inherit;
@@ -1349,22 +1350,22 @@ aside.aside-2 {
     /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
     .rank-box .rank-info:active, .rank-box .rank-info:focus {
       outline: none; }
-    /* line 1249, ../sass/screen.scss */
+    /* line 1250, ../sass/screen.scss */
     .rank-box .rank-info:hover .rank-name {
       color: #00A1D6; }
-    /* line 1253, ../sass/screen.scss */
+    /* line 1254, ../sass/screen.scss */
     .rank-box .rank-info .rank-id {
       line-height: 16px;
       height: 16px; }
-    /* line 1257, ../sass/screen.scss */
+    /* line 1258, ../sass/screen.scss */
     .rank-box .rank-info .rank-name {
       font-size: 12px; }
-    /* line 1260, ../sass/screen.scss */
+    /* line 1261, ../sass/screen.scss */
     .rank-box .rank-info .rank-num {
       float: right;
       font-size: 12px;
       color: #99A2AA; }
-      /* line 1264, ../sass/screen.scss */
+      /* line 1265, ../sass/screen.scss */
       .rank-box .rank-info .rank-num:before {
         content: '';
         background: transparent url('../images/icons.png?1455092879') -282px -282px no-repeat;
@@ -1373,7 +1374,7 @@ aside.aside-2 {
         height: 12px;
         padding-right: 5px;
         vertical-align: -2px; }
-    /* line 1274, ../sass/screen.scss */
+    /* line 1275, ../sass/screen.scss */
     .rank-box .rank-info .rank-msg {
       white-space: nowrap;
       overflow: hidden;
@@ -1384,24 +1385,24 @@ aside.aside-2 {
       margin-top: 8px;
       padding-bottom: 3px; }
 
-/* line 1289, ../sass/screen.scss */
+/* line 1290, ../sass/screen.scss */
 .part-animate {
   width: 100%;
   margin-top: 50px; }
-  /* line 1292, ../sass/screen.scss */
+  /* line 1293, ../sass/screen.scss */
   .part-animate .box-left {
     width: 880px;
     display: inline-block; }
-  /* line 1296, ../sass/screen.scss */
+  /* line 1297, ../sass/screen.scss */
   .part-animate .part-animate-top {
     width: 100%;
     display: inline-block; }
-    /* line 1299, ../sass/screen.scss */
+    /* line 1300, ../sass/screen.scss */
     .part-animate .part-animate-top h2 {
       display: inline-block;
       font-size: 24px;
       margin-right: 20px; }
-      /* line 1303, ../sass/screen.scss */
+      /* line 1304, ../sass/screen.scss */
       .part-animate .part-animate-top h2 i {
         background: transparent url('../images/icons.png?1455092879') -84px -143px no-repeat;
         display: inline-block;
@@ -1409,14 +1410,14 @@ aside.aside-2 {
         height: 27px;
         margin-right: 20px;
         vertical-align: -2px; }
-    /* line 1312, ../sass/screen.scss */
+    /* line 1313, ../sass/screen.scss */
     .part-animate .part-animate-top .animation-tab {
       font-size: 12px;
       color: #6D757A;
       position: relative;
       margin-right: 15px;
       padding-bottom: 5px; }
-      /* line 1319, ../sass/screen.scss */
+      /* line 1320, ../sass/screen.scss */
       .part-animate .part-animate-top .animation-tab:nth-child(4):before {
         content: '';
         background: transparent url('../images/icons.png?1455092879') -665px -1113px no-repeat;
@@ -1426,10 +1427,10 @@ aside.aside-2 {
         padding-right: 5px;
         vertical-align: -2px;
         margin-left: 15px; }
-    /* line 1331, ../sass/screen.scss */
+    /* line 1332, ../sass/screen.scss */
     .part-animate .part-animate-top .active {
       border-bottom: 1px solid #00A1D6; }
-      /* line 1333, ../sass/screen.scss */
+      /* line 1334, ../sass/screen.scss */
       .part-animate .part-animate-top .active:after {
         content: '';
         display: inline-block;
@@ -1441,12 +1442,12 @@ aside.aside-2 {
         left: 50%;
         bottom: 0;
         margin-left: -3px; }
-    /* line 1346, ../sass/screen.scss */
+    /* line 1347, ../sass/screen.scss */
     .part-animate .part-animate-top .btn-right {
       float: right;
       display: inline-block;
       margin-right: 20px; }
-    /* line 1351, ../sass/screen.scss */
+    /* line 1352, ../sass/screen.scss */
     .part-animate .part-animate-top .btn-reset {
       display: inline-block;
       cursor: pointer;
@@ -1455,14 +1456,14 @@ aside.aside-2 {
       border-radius: 5px;
       border: 1px solid #CCD0D7;
       transition: all 0.1s linear; }
-      /* line 1359, ../sass/screen.scss */
+      /* line 1360, ../sass/screen.scss */
       .part-animate .part-animate-top .btn-reset:hover {
         background-color: #CCD0D7; }
-        /* line 1361, ../sass/screen.scss */
+        /* line 1362, ../sass/screen.scss */
         .part-animate .part-animate-top .btn-reset:hover a {
           -webkit-transform: rotate(360deg);
           transform: rotate(360deg); }
-      /* line 1366, ../sass/screen.scss */
+      /* line 1367, ../sass/screen.scss */
       .part-animate .part-animate-top .btn-reset a {
         display: inline-block;
         width: 12px;
@@ -1470,15 +1471,15 @@ aside.aside-2 {
         vertical-align: middle;
         background: transparent url('../images/icons.png?1455092879') -475px -89px no-repeat;
         transition: all 0.1s linear; }
-      /* line 1374, ../sass/screen.scss */
+      /* line 1375, ../sass/screen.scss */
       .part-animate .part-animate-top .btn-reset span {
         line-height: 22px;
         color: #000;
         font-size: 12px; }
-        /* line 1378, ../sass/screen.scss */
+        /* line 1379, ../sass/screen.scss */
         .part-animate .part-animate-top .btn-reset span strong {
           font-weight: bold; }
-    /* line 1383, ../sass/screen.scss */
+    /* line 1384, ../sass/screen.scss */
     .part-animate .part-animate-top .btn-more {
       display: inline-block;
       cursor: pointer;
@@ -1488,10 +1489,10 @@ aside.aside-2 {
       border: 1px solid #CCD0D7;
       transition: all 0.1s linear;
       vertical-align: bottom; }
-      /* line 1392, ../sass/screen.scss */
+      /* line 1393, ../sass/screen.scss */
       .part-animate .part-animate-top .btn-more:hover {
         background-color: #CCD0D7; }
-      /* line 1395, ../sass/screen.scss */
+      /* line 1396, ../sass/screen.scss */
       .part-animate .part-animate-top .btn-more a {
         display: inline-block;
         height: 22px;
@@ -1504,7 +1505,7 @@ aside.aside-2 {
         /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
         .part-animate .part-animate-top .btn-more a:active, .part-animate .part-animate-top .btn-more a:focus {
           outline: none; }
-        /* line 1402, ../sass/screen.scss */
+        /* line 1403, ../sass/screen.scss */
         .part-animate .part-animate-top .btn-more a:after {
           content: '';
           display: inline-block;
@@ -1515,31 +1516,31 @@ aside.aside-2 {
           margin-left: 5px;
           margin-right: -10px; }
 
-/* line 1417, ../sass/screen.scss */
+/* line 1418, ../sass/screen.scss */
 .part-animate aside {
   float: right;
   width: 260px;
   display: inline-block;
   overflow: hidden;
   *zoom: 1; }
-  /* line 1422, ../sass/screen.scss */
+  /* line 1423, ../sass/screen.scss */
   .part-animate aside .part-animate-aside {
     margin-bottom: 10px; }
-    /* line 1424, ../sass/screen.scss */
+    /* line 1425, ../sass/screen.scss */
     .part-animate aside .part-animate-aside ul {
       height: 34px;
       border-radius: 5px;
       margin-bottom: 5px; }
-      /* line 1428, ../sass/screen.scss */
+      /* line 1429, ../sass/screen.scss */
       .part-animate aside .part-animate-aside ul h2 {
         display: block;
         font-size: 24px;
         float: left;
         margin-right: 15px; }
-      /* line 1434, ../sass/screen.scss */
+      /* line 1435, ../sass/screen.scss */
       .part-animate aside .part-animate-aside ul .live-active {
         border-bottom: 1px solid #00A1D6; }
-        /* line 1436, ../sass/screen.scss */
+        /* line 1437, ../sass/screen.scss */
         .part-animate aside .part-animate-aside ul .live-active:after {
           content: '';
           display: inline-block;
@@ -1551,7 +1552,7 @@ aside.aside-2 {
           left: 50%;
           bottom: 0;
           margin-left: -3px; }
-      /* line 1449, ../sass/screen.scss */
+      /* line 1450, ../sass/screen.scss */
       .part-animate aside .part-animate-aside ul li {
         position: relative;
         float: left;
@@ -1559,7 +1560,7 @@ aside.aside-2 {
         color: #000;
         line-height: 25px;
         margin-right: 20px; }
-        /* line 1456, ../sass/screen.scss */
+        /* line 1457, ../sass/screen.scss */
         .part-animate aside .part-animate-aside ul li a {
           color: inherit;
           text-decoration: inherit;
@@ -1569,10 +1570,10 @@ aside.aside-2 {
           /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
           .part-animate aside .part-animate-aside ul li a:active, .part-animate aside .part-animate-aside ul li a:focus {
             outline: none; }
-          /* line 1460, ../sass/screen.scss */
+          /* line 1461, ../sass/screen.scss */
           .part-animate aside .part-animate-aside ul li a:hover {
             color: #00A1D6; }
-      /* line 1465, ../sass/screen.scss */
+      /* line 1466, ../sass/screen.scss */
       .part-animate aside .part-animate-aside ul .hr {
         display: inline-block;
         width: 1px;
@@ -1581,7 +1582,7 @@ aside.aside-2 {
         vertical-align: middle;
         float: left;
         margin-top: 10px; }
-    /* line 1475, ../sass/screen.scss */
+    /* line 1476, ../sass/screen.scss */
     .part-animate aside .part-animate-aside .date-change {
       float: right;
       width: 55px;
@@ -1593,19 +1594,19 @@ aside.aside-2 {
       background-color: #fff;
       overflow: hidden;
       cursor: pointer; }
-      /* line 1486, ../sass/screen.scss */
+      /* line 1487, ../sass/screen.scss */
       .part-animate aside .part-animate-aside .date-change:hover {
         box-shadow: 1px 0px 1px #B0B0B0; }
-        /* line 1488, ../sass/screen.scss */
+        /* line 1489, ../sass/screen.scss */
         .part-animate aside .part-animate-aside .date-change:hover ul {
           display: block; }
-      /* line 1492, ../sass/screen.scss */
+      /* line 1493, ../sass/screen.scss */
       .part-animate aside .part-animate-aside .date-change span {
         display: block;
         height: 22px;
         line-height: 22px;
         background-color: #EAFFFE; }
-        /* line 1497, ../sass/screen.scss */
+        /* line 1498, ../sass/screen.scss */
         .part-animate aside .part-animate-aside .date-change span:after {
           content: '';
           display: inline-block;
@@ -1615,7 +1616,7 @@ aside.aside-2 {
           vertical-align: middle;
           margin-left: 5px;
           margin-right: -5px; }
-      /* line 1508, ../sass/screen.scss */
+      /* line 1509, ../sass/screen.scss */
       .part-animate aside .part-animate-aside .date-change ul {
         width: 55px;
         height: auto;
@@ -1627,15 +1628,15 @@ aside.aside-2 {
         margin-top: -1px;
         margin-left: -1px;
         border: 1px solid #ccc; }
-        /* line 1519, ../sass/screen.scss */
+        /* line 1520, ../sass/screen.scss */
         .part-animate aside .part-animate-aside .date-change ul li {
           width: 55px;
           text-align: center;
           padding-right: 5px; }
-          /* line 1523, ../sass/screen.scss */
+          /* line 1524, ../sass/screen.scss */
           .part-animate aside .part-animate-aside .date-change ul li a {
             padding-right: 5px; }
-  /* line 1530, ../sass/screen.scss */
+  /* line 1531, ../sass/screen.scss */
   .part-animate aside .checkmore {
     width: 100%;
     border-radius: 5px;
@@ -1644,7 +1645,7 @@ aside.aside-2 {
     font-size: 12px;
     height: 24px;
     line-height: 24px; }
-    /* line 1539, ../sass/screen.scss */
+    /* line 1540, ../sass/screen.scss */
     .part-animate aside .checkmore span:after {
       content: '';
       display: inline-block;
@@ -1655,37 +1656,37 @@ aside.aside-2 {
       margin-left: 5px;
       margin-right: -10px; }
 
-/* line 1553, ../sass/screen.scss */
+/* line 1554, ../sass/screen.scss */
 .part-animate .video-list {
   width: 880px;
   display: inline-block;
   cursor: pointer; }
-  /* line 1557, ../sass/screen.scss */
+  /* line 1558, ../sass/screen.scss */
   .part-animate .video-list li {
     float: left;
     width: 160px;
     margin-right: 15px;
     margin-top: 18px;
     overflow: hidden; }
-    /* line 1563, ../sass/screen.scss */
+    /* line 1564, ../sass/screen.scss */
     .part-animate .video-list li:hover {
       color: #00A1D6; }
-      /* line 1565, ../sass/screen.scss */
+      /* line 1566, ../sass/screen.scss */
       .part-animate .video-list li:hover .image-title .title {
         height: 40px; }
-      /* line 1568, ../sass/screen.scss */
+      /* line 1569, ../sass/screen.scss */
       .part-animate .video-list li:hover .video-time {
         opacity: 1; }
-    /* line 1572, ../sass/screen.scss */
+    /* line 1573, ../sass/screen.scss */
     .part-animate .video-list li .image-box {
       position: relative; }
-      /* line 1574, ../sass/screen.scss */
+      /* line 1575, ../sass/screen.scss */
       .part-animate .video-list li .image-box img {
         width: 100%;
         height: 100%;
         border-radius: 5px;
         vertical-align: bottom; }
-    /* line 1581, ../sass/screen.scss */
+    /* line 1582, ../sass/screen.scss */
     .part-animate .video-list li .video-time {
       background-color: rgba(0, 0, 0, 0.65);
       position: absolute;
@@ -1701,7 +1702,7 @@ aside.aside-2 {
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
       opacity: 0;
       transition: all 0.2s linear; }
-    /* line 1596, ../sass/screen.scss */
+    /* line 1597, ../sass/screen.scss */
     .part-animate .video-list li .image-title {
       display: block;
       font-size: 12px;
@@ -1718,10 +1719,10 @@ aside.aside-2 {
       /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
       .part-animate .video-list li .image-title:active, .part-animate .video-list li .image-title:focus {
         outline: none; }
-      /* line 1607, ../sass/screen.scss */
+      /* line 1608, ../sass/screen.scss */
       .part-animate .video-list li .image-title:hover {
         color: #00A1D6; }
-      /* line 1610, ../sass/screen.scss */
+      /* line 1611, ../sass/screen.scss */
       .part-animate .video-list li .image-title .title {
         height: 20px;
         overflow: hidden;
@@ -1730,15 +1731,15 @@ aside.aside-2 {
         word-wrap: word-break;
         margin-bottom: 3px;
         transition: all 0.2s linear; }
-      /* line 1619, ../sass/screen.scss */
+      /* line 1620, ../sass/screen.scss */
       .part-animate .video-list li .image-title .click-num {
         height: 40px;
         color: #99A2AA;
         font-size: 12px; }
-      /* line 1624, ../sass/screen.scss */
+      /* line 1625, ../sass/screen.scss */
       .part-animate .video-list li .image-title .play {
         margin-right: 20px; }
-        /* line 1626, ../sass/screen.scss */
+        /* line 1627, ../sass/screen.scss */
         .part-animate .video-list li .image-title .play:before {
           content: '';
           background: transparent url('../images/icons.png?1455092879') -282px -90px no-repeat;
@@ -1746,7 +1747,7 @@ aside.aside-2 {
           width: 12px;
           height: 12px;
           vertical-align: -2px; }
-      /* line 1636, ../sass/screen.scss */
+      /* line 1637, ../sass/screen.scss */
       .part-animate .video-list li .image-title .barrage:before {
         content: '';
         background: transparent url('../images/icons.png?1455092879') -282px -218px no-repeat;
@@ -1755,23 +1756,23 @@ aside.aside-2 {
         height: 12px;
         vertical-align: -2px; }
 
-/* line 1649, ../sass/screen.scss */
+/* line 1650, ../sass/screen.scss */
 .carousel-animate-box {
   width: 520px;
   overflow: hidden;
   *zoom: 1; }
-  /* line 1652, ../sass/screen.scss */
+  /* line 1653, ../sass/screen.scss */
   .carousel-animate-box .rank-top {
     width: 80px;
     height: 50px;
     border-radius: 4px;
     margin-left: 25px; }
-    /* line 1657, ../sass/screen.scss */
+    /* line 1658, ../sass/screen.scss */
     .carousel-animate-box .rank-top img {
       width: 80px;
       height: 50px;
       border-radius: 4px; }
-  /* line 1663, ../sass/screen.scss */
+  /* line 1664, ../sass/screen.scss */
   .carousel-animate-box .rank-top-info {
     position: absolute;
     margin-left: 10px;
@@ -1789,38 +1790,38 @@ aside.aside-2 {
     /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
     .carousel-animate-box .rank-top-info:active, .carousel-animate-box .rank-top-info:focus {
       outline: none; }
-    /* line 1675, ../sass/screen.scss */
+    /* line 1676, ../sass/screen.scss */
     .carousel-animate-box .rank-top-info:hover {
       color: #00A1D6; }
-    /* line 1678, ../sass/screen.scss */
+    /* line 1679, ../sass/screen.scss */
     .carousel-animate-box .rank-top-info .rank-id {
       height: 50px; }
-    /* line 1681, ../sass/screen.scss */
+    /* line 1682, ../sass/screen.scss */
     .carousel-animate-box .rank-top-info .rank-name {
       display: block;
       height: 32px;
       overflow: hidden;
       line-height: 1.3; }
-    /* line 1687, ../sass/screen.scss */
+    /* line 1688, ../sass/screen.scss */
     .carousel-animate-box .rank-top-info .rank-num {
       color: #99A2AA;
       line-height: 1.5; }
-  /* line 1692, ../sass/screen.scss */
+  /* line 1693, ../sass/screen.scss */
   .carousel-animate-box .rank-box {
     width: 260px;
     float: left; }
-    /* line 1695, ../sass/screen.scss */
+    /* line 1696, ../sass/screen.scss */
     .carousel-animate-box .rank-box li {
       margin-bottom: 20px;
       position: relative;
       overflow: hidden; }
-      /* line 1699, ../sass/screen.scss */
+      /* line 1700, ../sass/screen.scss */
       .carousel-animate-box .rank-box li:nth-child(1) .rank, .carousel-animate-box .rank-box li:nth-child(2) .rank, .carousel-animate-box .rank-box li:nth-child(3) .rank {
         background-color: #F25D8E; }
-      /* line 1705, ../sass/screen.scss */
+      /* line 1706, ../sass/screen.scss */
       .carousel-animate-box .rank-box li:hover .rank-name {
         color: #00A1D6; }
-      /* line 1709, ../sass/screen.scss */
+      /* line 1710, ../sass/screen.scss */
       .carousel-animate-box .rank-box li .rank {
         position: absolute;
         top: 0;
@@ -1835,7 +1836,7 @@ aside.aside-2 {
         text-align: center;
         line-height: 18px;
         margin-right: 18px; }
-      /* line 1724, ../sass/screen.scss */
+      /* line 1725, ../sass/screen.scss */
       .carousel-animate-box .rank-box li .rank-info {
         display: inline-block;
         color: inherit;
@@ -1848,19 +1849,19 @@ aside.aside-2 {
         /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
         .carousel-animate-box .rank-box li .rank-info:active, .carousel-animate-box .rank-box li .rank-info:focus {
           outline: none; }
-      /* line 1732, ../sass/screen.scss */
+      /* line 1733, ../sass/screen.scss */
       .carousel-animate-box .rank-box li .rank-id {
         line-height: 16px;
         height: 16px; }
-        /* line 1735, ../sass/screen.scss */
+        /* line 1736, ../sass/screen.scss */
         .carousel-animate-box .rank-box li .rank-id .rank-name {
           font-size: 12px; }
-        /* line 1738, ../sass/screen.scss */
+        /* line 1739, ../sass/screen.scss */
         .carousel-animate-box .rank-box li .rank-id .rank-num {
           float: left;
           font-size: 12px;
           color: #99A2AA; }
-          /* line 1742, ../sass/screen.scss */
+          /* line 1743, ../sass/screen.scss */
           .carousel-animate-box .rank-box li .rank-id .rank-num:before {
             content: '';
             background: transparent url('../images/icons.png?1455092879') -282px -282px no-repeat;
@@ -1869,7 +1870,7 @@ aside.aside-2 {
             height: 12px;
             padding-right: 5px;
             vertical-align: -2px; }
-      /* line 1753, ../sass/screen.scss */
+      /* line 1754, ../sass/screen.scss */
       .carousel-animate-box .rank-box li .rank-msg {
         white-space: nowrap;
         overflow: hidden;
@@ -1880,21 +1881,21 @@ aside.aside-2 {
         margin-top: 8px;
         padding-bottom: 3px; }
 
-/* line 1768, ../sass/screen.scss */
+/* line 1769, ../sass/screen.scss */
 .part-animate-list {
   margin-top: 50px;
   height: 380px; }
 
-/* line 1773, ../sass/screen.scss */
+/* line 1774, ../sass/screen.scss */
 .list-left {
   width: 880px;
   display: inline-block; }
-  /* line 1776, ../sass/screen.scss */
+  /* line 1777, ../sass/screen.scss */
   .list-left header ul {
     width: 81%;
     border-bottom: 1px solid #e5e9ef;
     display: inline-block; }
-  /* line 1781, ../sass/screen.scss */
+  /* line 1782, ../sass/screen.scss */
   .list-left .list-btn {
     width: 104px;
     height: 45px;
@@ -1913,17 +1914,17 @@ aside.aside-2 {
     /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
     .list-left .list-btn:active, .list-left .list-btn:focus {
       outline: none; }
-    /* line 1794, ../sass/screen.scss */
+    /* line 1795, ../sass/screen.scss */
     .list-left .list-btn:hover {
       background-color: #f25d8e; }
-      /* line 1796, ../sass/screen.scss */
+      /* line 1797, ../sass/screen.scss */
       .list-left .list-btn:hover span {
         color: #fff; }
-    /* line 1800, ../sass/screen.scss */
+    /* line 1801, ../sass/screen.scss */
     .list-left .list-btn span {
       color: #f25d8e;
       font-size: 14px; }
-      /* line 1803, ../sass/screen.scss */
+      /* line 1804, ../sass/screen.scss */
       .list-left .list-btn span:after {
         content: '';
         display: inline-block;
@@ -1934,7 +1935,7 @@ aside.aside-2 {
         margin-left: 5px;
         margin-right: -10px; }
 
-/* line 1817, ../sass/screen.scss */
+/* line 1818, ../sass/screen.scss */
 .list-controller {
   list-style-image: none;
   list-style-type: none;
@@ -1948,7 +1949,7 @@ aside.aside-2 {
   padding-left: 0px;
   padding-right: 0px;
   margin-bottom: 10px; }
-  /* line 1820, ../sass/screen.scss */
+  /* line 1821, ../sass/screen.scss */
   .list-controller .weekDay-active {
     cursor: pointer;
     position: relative;
@@ -1958,7 +1959,7 @@ aside.aside-2 {
     padding-left: 60px;
     border-radius: 5px;
     display: none; }
-    /* line 1829, ../sass/screen.scss */
+    /* line 1830, ../sass/screen.scss */
     .list-controller .weekDay-active:after {
       content: "";
       display: block;
@@ -1970,7 +1971,7 @@ aside.aside-2 {
       left: 50%;
       margin-bottom: -8px;
       margin-left: -9px; }
-    /* line 1841, ../sass/screen.scss */
+    /* line 1842, ../sass/screen.scss */
     .list-controller .weekDay-active .icon {
       width: 54px;
       height: 54px;
@@ -1978,7 +1979,7 @@ aside.aside-2 {
       position: absolute;
       left: 12px;
       top: -20px; }
-    /* line 1849, ../sass/screen.scss */
+    /* line 1850, ../sass/screen.scss */
     .list-controller .weekDay-active span {
       float: right;
       font-size: 18px;
@@ -1986,50 +1987,50 @@ aside.aside-2 {
       line-height: 36px;
       font-weight: 700;
       padding-right: 10px; }
-  /* line 1858, ../sass/screen.scss */
+  /* line 1859, ../sass/screen.scss */
   .list-controller .weekDay-show {
     display: block; }
-    /* line 1860, ../sass/screen.scss */
+    /* line 1861, ../sass/screen.scss */
     .list-controller .weekDay-show ~ .weekDay {
       display: none; }
-  /* line 1864, ../sass/screen.scss */
+  /* line 1865, ../sass/screen.scss */
   .list-controller .weekDay {
     font-size: 18px;
     cursor: pointer;
     display: block;
     padding: 0 25px; }
-  /* line 1870, ../sass/screen.scss */
+  /* line 1871, ../sass/screen.scss */
   .list-controller:nth-child(1) {
     padding-left: 0; }
-  /* line 1873, ../sass/screen.scss */
+  /* line 1874, ../sass/screen.scss */
   .list-controller:nth-child(1) .weekDay-active .icon {
     background-position: -36px -38px; }
-  /* line 1876, ../sass/screen.scss */
+  /* line 1877, ../sass/screen.scss */
   .list-controller:nth-child(2) .weekDay-active .icon {
     background-position: -165px -38px; }
-  /* line 1879, ../sass/screen.scss */
+  /* line 1880, ../sass/screen.scss */
   .list-controller:nth-child(3) .weekDay-active .icon {
     background-position: -293px -38px; }
-  /* line 1882, ../sass/screen.scss */
+  /* line 1883, ../sass/screen.scss */
   .list-controller:nth-child(4) .weekDay-active .icon {
     background-position: -420px -38px; }
-  /* line 1885, ../sass/screen.scss */
+  /* line 1886, ../sass/screen.scss */
   .list-controller:nth-child(5) .weekDay-active .icon {
     background-position: -549px -38px; }
-  /* line 1888, ../sass/screen.scss */
+  /* line 1889, ../sass/screen.scss */
   .list-controller:nth-child(6) .weekDay-active .icon {
     background-position: -677px -38px; }
-  /* line 1891, ../sass/screen.scss */
+  /* line 1892, ../sass/screen.scss */
   .list-controller:nth-child(7) .weekDay-active .icon {
     background-position: -805px -38px; }
 
-/* line 1896, ../sass/screen.scss */
+/* line 1897, ../sass/screen.scss */
 .list-box {
   width: 880px;
   display: none;
   height: 288px;
   opacity: 0; }
-  /* line 1901, ../sass/screen.scss */
+  /* line 1902, ../sass/screen.scss */
   .list-box li {
     list-style-image: none;
     list-style-type: none;
@@ -2045,18 +2046,18 @@ aside.aside-2 {
     position: relative;
     width: 24%;
     margin-top: 36px; }
-    /* line 1906, ../sass/screen.scss */
+    /* line 1907, ../sass/screen.scss */
     .list-box li .img-box {
       width: 72px;
       height: 72px;
       overflow: hidden;
       border-radius: 5px;
       cursor: pointer; }
-      /* line 1913, ../sass/screen.scss */
+      /* line 1914, ../sass/screen.scss */
       .list-box li .img-box:hover img {
         -webkit-transform: scale(1.3);
         transform: scale(1.3); }
-      /* line 1918, ../sass/screen.scss */
+      /* line 1919, ../sass/screen.scss */
       .list-box li .img-box img {
         width: 72px;
         height: 72px;
@@ -2064,12 +2065,12 @@ aside.aside-2 {
         transition: -webkit-transform 0.2s ease-in;
         transition: transform 0.2s ease-in;
         transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in; }
-    /* line 1927, ../sass/screen.scss */
+    /* line 1928, ../sass/screen.scss */
     .list-box li span {
       position: absolute;
       margin-left: 80px;
       font-size: 12px; }
-    /* line 1932, ../sass/screen.scss */
+    /* line 1933, ../sass/screen.scss */
     .list-box li .title {
       top: 0;
       display: inline-block;
@@ -2078,11 +2079,11 @@ aside.aside-2 {
       word-break: break-all;
       white-space: normal;
       line-height: 1.5; }
-    /* line 1941, ../sass/screen.scss */
+    /* line 1942, ../sass/screen.scss */
     .list-box li .episodes {
       color: #99A2AA;
       bottom: 0; }
-      /* line 1944, ../sass/screen.scss */
+      /* line 1945, ../sass/screen.scss */
       .list-box li .episodes i {
         color: #fff;
         text-align: center;
@@ -2094,44 +2095,44 @@ aside.aside-2 {
         padding: 0 5px;
         margin-left: 5px; }
 
-/* line 1959, ../sass/screen.scss */
+/* line 1960, ../sass/screen.scss */
 .part-animate-list aside {
   float: right;
   width: 260px; }
-  /* line 1962, ../sass/screen.scss */
+  /* line 1963, ../sass/screen.scss */
   .part-animate-list aside .carousel-box {
     overflow: hidden;
     height: 250px;
     width: 100%;
     position: relative;
     border-radius: 5px; }
-    /* line 1968, ../sass/screen.scss */
+    /* line 1969, ../sass/screen.scss */
     .part-animate-list aside .carousel-box ul {
       height: 250px;
       width: 400%; }
-    /* line 1972, ../sass/screen.scss */
+    /* line 1973, ../sass/screen.scss */
     .part-animate-list aside .carousel-box li.carousel-img {
       float: left;
       height: 100%; }
-      /* line 1975, ../sass/screen.scss */
+      /* line 1976, ../sass/screen.scss */
       .part-animate-list aside .carousel-box li.carousel-img img {
         width: 260px;
         height: 100%;
         display: block;
         line-height: 0; }
-    /* line 1982, ../sass/screen.scss */
+    /* line 1983, ../sass/screen.scss */
     .part-animate-list aside .carousel-box .carousel-box-ctrl {
       position: absolute;
       width: 100%;
       height: 60px;
       bottom: 0;
       background-color: rgba(0, 0, 0, 0.5); }
-      /* line 1988, ../sass/screen.scss */
+      /* line 1989, ../sass/screen.scss */
       .part-animate-list aside .carousel-box .carousel-box-ctrl ul {
         height: 60px;
         width: 100%;
         text-align: center; }
-      /* line 1993, ../sass/screen.scss */
+      /* line 1994, ../sass/screen.scss */
       .part-animate-list aside .carousel-box .carousel-box-ctrl li {
         width: 10px;
         height: 6px;
@@ -2143,11 +2144,11 @@ aside.aside-2 {
         border-radius: 9px;
         cursor: pointer;
         transition: all 0.1s linear; }
-      /* line 2005, ../sass/screen.scss */
+      /* line 2006, ../sass/screen.scss */
       .part-animate-list aside .carousel-box .carousel-box-ctrl li.active {
         width: 30px;
         background-color: #f25d8e; }
-      /* line 2009, ../sass/screen.scss */
+      /* line 2010, ../sass/screen.scss */
       .part-animate-list aside .carousel-box .carousel-box-ctrl .animate-name {
         position: absolute;
         top: 10px;
@@ -2155,21 +2156,21 @@ aside.aside-2 {
         font-size: 12px;
         color: #fff; }
 
-/* line 2020, ../sass/screen.scss */
+/* line 2021, ../sass/screen.scss */
 .other-finish {
   margin-top: 15px; }
-  /* line 2022, ../sass/screen.scss */
+  /* line 2023, ../sass/screen.scss */
   .other-finish li {
     float: left;
     width: 56px;
     padding-right: 12px; }
-    /* line 2026, ../sass/screen.scss */
+    /* line 2027, ../sass/screen.scss */
     .other-finish li:nth-child(4) {
       padding-right: 0; }
-    /* line 2030, ../sass/screen.scss */
+    /* line 2031, ../sass/screen.scss */
     .other-finish li:hover a {
       color: #00A1D6; }
-    /* line 2034, ../sass/screen.scss */
+    /* line 2035, ../sass/screen.scss */
     .other-finish li .preview {
       width: 56px;
       height: 56px;
@@ -2177,13 +2178,13 @@ aside.aside-2 {
       cursor: pointer;
       border-radius: 5px;
       position: relative; }
-      /* line 2041, ../sass/screen.scss */
+      /* line 2042, ../sass/screen.scss */
       .other-finish li .preview img {
         width: 100%;
         height: 100%;
         display: block;
         border-radius: 5px; }
-      /* line 2047, ../sass/screen.scss */
+      /* line 2048, ../sass/screen.scss */
       .other-finish li .preview p {
         font-size: 12px;
         color: #fff;
@@ -2196,7 +2197,7 @@ aside.aside-2 {
         height: 20px;
         line-height: 20px;
         text-align: center; }
-    /* line 2061, ../sass/screen.scss */
+    /* line 2062, ../sass/screen.scss */
     .other-finish li a {
       margin-top: 10px;
       font-size: 12px;
@@ -2210,42 +2211,42 @@ aside.aside-2 {
       .other-finish li a:active, .other-finish li a:focus {
         outline: none; }
 
-/* line 2074, ../sass/screen.scss */
+/* line 2075, ../sass/screen.scss */
 #part4 .part-animate-top i {
   background: transparent url('../images/icons.png?1455092879') -84px -209px no-repeat; }
 
-/* line 2081, ../sass/screen.scss */
+/* line 2082, ../sass/screen.scss */
 #part5 .part-animate-top i {
   background: transparent url('../images/icons.png?1455092879') -84px -272px no-repeat; }
 
-/* line 2088, ../sass/screen.scss */
+/* line 2089, ../sass/screen.scss */
 #part6 .part-animate-top i {
   background: transparent url('../images/icons.png?1455092879') -84px -337px no-repeat; }
 
-/* line 2095, ../sass/screen.scss */
+/* line 2096, ../sass/screen.scss */
 #part7 .part-animate-top i {
   background: transparent url('../images/icons.png?1455092879') -84px -402px no-repeat; }
 
-/* line 2102, ../sass/screen.scss */
+/* line 2103, ../sass/screen.scss */
 #part8 .part-animate-top i {
   background: transparent url('../images/icons.png?1455092879') -84px -466px no-repeat; }
 
-/* line 2109, ../sass/screen.scss */
+/* line 2110, ../sass/screen.scss */
 #part9 .part-animate-top i {
   background: transparent url('../images/icons.png?1455092879') -86px -530px no-repeat; }
 
-/* line 2116, ../sass/screen.scss */
+/* line 2117, ../sass/screen.scss */
 #part10 .part-animate-top i {
   background: transparent url('../images/icons.png?1455092879') -84px -594px no-repeat; }
 
-/* line 2123, ../sass/screen.scss */
+/* line 2124, ../sass/screen.scss */
 #part10-special .personal-info a {
   width: 5em;
   height: auto; }
-/* line 2127, ../sass/screen.scss */
+/* line 2128, ../sass/screen.scss */
 #part10-special .title {
   position: relative; }
-  /* line 2129, ../sass/screen.scss */
+  /* line 2130, ../sass/screen.scss */
   #part10-special .title div {
     position: absolute;
     right: 0;
@@ -2254,26 +2255,26 @@ aside.aside-2 {
     background-color: #fff;
     font-size: 12px;
     color: #99A2AA; }
-/* line 2139, ../sass/screen.scss */
+/* line 2140, ../sass/screen.scss */
 #part10-special #video-name {
   width: 100%; }
-/* line 2142, ../sass/screen.scss */
+/* line 2143, ../sass/screen.scss */
 #part10-special .special-aside {
   width: 260px;
   float: right; }
-  /* line 2145, ../sass/screen.scss */
+  /* line 2146, ../sass/screen.scss */
   #part10-special .special-aside h2 {
     font-size: 24px;
     margin-bottom: 17px; }
-  /* line 2149, ../sass/screen.scss */
+  /* line 2150, ../sass/screen.scss */
   #part10-special .special-aside li {
     float: left;
     margin-bottom: 20px;
     width: 7em; }
-    /* line 2153, ../sass/screen.scss */
+    /* line 2154, ../sass/screen.scss */
     #part10-special .special-aside li:nth-child(odd) {
       margin-right: 25px; }
-    /* line 2156, ../sass/screen.scss */
+    /* line 2157, ../sass/screen.scss */
     #part10-special .special-aside li a {
       color: inherit;
       text-decoration: inherit;
@@ -2289,7 +2290,7 @@ aside.aside-2 {
       /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
       #part10-special .special-aside li a:active, #part10-special .special-aside li a:focus {
         outline: none; }
-      /* line 2166, ../sass/screen.scss */
+      /* line 2167, ../sass/screen.scss */
       #part10-special .special-aside li a i {
         display: inline-block;
         width: 18px;
@@ -2302,34 +2303,34 @@ aside.aside-2 {
         text-align: center;
         line-height: 18px;
         vertical-align: middle; }
-      /* line 2179, ../sass/screen.scss */
+      /* line 2180, ../sass/screen.scss */
       #part10-special .special-aside li a:hover {
         color: #00A1D6; }
 
-/* line 2189, ../sass/screen.scss */
+/* line 2190, ../sass/screen.scss */
 #part11 .part-animate-top i {
   background: transparent url('../images/icons.png?1455092879') -81px -656px no-repeat; }
 
-/* line 2196, ../sass/screen.scss */
+/* line 2197, ../sass/screen.scss */
 #part12 .part-animate-top i {
   background: transparent url('../images/icons.png?1455092879') -84px -721px no-repeat; }
 
-/* line 2203, ../sass/screen.scss */
+/* line 2204, ../sass/screen.scss */
 #part13 .part-animate-top i {
   background: transparent url('../images/icons.png?1455092879') -82px -1553px no-repeat; }
 
-/* line 2210, ../sass/screen.scss */
+/* line 2211, ../sass/screen.scss */
 #part14 .part-animate-top i {
   background: transparent url('../images/icons.png?1455092879') -82px -785px no-repeat; }
 
-/* line 2217, ../sass/screen.scss */
+/* line 2218, ../sass/screen.scss */
 #part15-special .personal-info a {
   width: 5em;
   height: auto; }
-/* line 2221, ../sass/screen.scss */
+/* line 2222, ../sass/screen.scss */
 #part15-special .title {
   position: relative; }
-  /* line 2223, ../sass/screen.scss */
+  /* line 2224, ../sass/screen.scss */
   #part15-special .title div {
     position: absolute;
     right: 0;
@@ -2338,38 +2339,38 @@ aside.aside-2 {
     background-color: #fff;
     font-size: 12px;
     color: #99A2AA; }
-/* line 2233, ../sass/screen.scss */
+/* line 2234, ../sass/screen.scss */
 #part15-special #video-name {
   width: 100%; }
-/* line 2236, ../sass/screen.scss */
+/* line 2237, ../sass/screen.scss */
 #part15-special .special-aside {
   width: 260px;
   float: right; }
-  /* line 2239, ../sass/screen.scss */
+  /* line 2240, ../sass/screen.scss */
   #part15-special .special-aside li {
     margin-bottom: 10px;
     border-radius: 5px;
     cursor: pointer; }
-    /* line 2243, ../sass/screen.scss */
+    /* line 2244, ../sass/screen.scss */
     #part15-special .special-aside li:first-child {
       margin-top: 40px; }
-    /* line 2246, ../sass/screen.scss */
+    /* line 2247, ../sass/screen.scss */
     #part15-special .special-aside li img {
       border-radius: 5px; }
 
-/* line 2254, ../sass/screen.scss */
+/* line 2255, ../sass/screen.scss */
 footer {
   width: 100%;
   background-color: #f6f9fa;
   margin-top: 50px;
   overflow: hidden;
   padding-bottom: 20px; }
-  /* line 2260, ../sass/screen.scss */
+  /* line 2261, ../sass/screen.scss */
   footer .inner {
     width: 1160px;
     margin: 0 auto;
     overflow: hidden; }
-  /* line 2265, ../sass/screen.scss */
+  /* line 2266, ../sass/screen.scss */
   footer a {
     color: inherit;
     text-decoration: inherit;
@@ -2379,105 +2380,105 @@ footer {
     /* line 6, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
     footer a:active, footer a:focus {
       outline: none; }
-    /* line 2269, ../sass/screen.scss */
+    /* line 2270, ../sass/screen.scss */
     footer a:hover {
       color: #00A1D6; }
-  /* line 2273, ../sass/screen.scss */
+  /* line 2274, ../sass/screen.scss */
   footer .footer-list-left {
     float: left;
     border-right: 1px solid #eee;
     margin-top: 30px;
     padding-right: 50px; }
-    /* line 2278, ../sass/screen.scss */
+    /* line 2279, ../sass/screen.scss */
     footer .footer-list-left h2 {
       font-size: 14px;
       color: #99A2AA;
       padding-bottom: 30px; }
-    /* line 2283, ../sass/screen.scss */
+    /* line 2284, ../sass/screen.scss */
     footer .footer-list-left ul {
       width: 175px;
       display: inline-block; }
-      /* line 2286, ../sass/screen.scss */
+      /* line 2287, ../sass/screen.scss */
       footer .footer-list-left ul li {
         float: left;
         margin-right: 30px;
         margin-bottom: 5px; }
-    /* line 2292, ../sass/screen.scss */
+    /* line 2293, ../sass/screen.scss */
     footer .footer-list-left a {
       display: block;
       float: right; }
-  /* line 2297, ../sass/screen.scss */
+  /* line 2298, ../sass/screen.scss */
   footer .footer-list-middle {
     float: left;
     border-right: 1px solid #eee;
     margin-top: 30px;
     padding: 0 50px; }
-    /* line 2302, ../sass/screen.scss */
+    /* line 2303, ../sass/screen.scss */
     footer .footer-list-middle h2 {
       font-size: 14px;
       color: #99A2AA;
       padding-bottom: 30px; }
-    /* line 2307, ../sass/screen.scss */
+    /* line 2308, ../sass/screen.scss */
     footer .footer-list-middle ul {
       width: 280px; }
-      /* line 2309, ../sass/screen.scss */
+      /* line 2310, ../sass/screen.scss */
       footer .footer-list-middle ul li {
         float: left;
         margin-right: 30px;
         margin-bottom: 5px; }
-  /* line 2316, ../sass/screen.scss */
+  /* line 2317, ../sass/screen.scss */
   footer .footer-list-right {
     float: left;
     margin-top: 30px;
     padding-left: 70px;
     display: block; }
-    /* line 2321, ../sass/screen.scss */
+    /* line 2322, ../sass/screen.scss */
     footer .footer-list-right h2 {
       font-size: 14px;
       color: #99A2AA;
       padding-bottom: 30px; }
-    /* line 2326, ../sass/screen.scss */
+    /* line 2327, ../sass/screen.scss */
     footer .footer-list-right ul {
       width: 380px;
       display: block;
       height: 63px; }
-      /* line 2330, ../sass/screen.scss */
+      /* line 2331, ../sass/screen.scss */
       footer .footer-list-right ul li {
         float: left;
         width: 80px;
         margin-bottom: 5px;
         margin-right: 25px; }
-    /* line 2337, ../sass/screen.scss */
+    /* line 2338, ../sass/screen.scss */
     footer .footer-list-right div {
       display: inline-block;
       text-align: center;
       margin-top: 15px; }
-      /* line 2341, ../sass/screen.scss */
+      /* line 2342, ../sass/screen.scss */
       footer .footer-list-right div p {
         background: transparent url('../images/icons.png?1455092879') no-repeat;
         width: 65px;
         height: 65px;
         cursor: pointer; }
-        /* line 2347, ../sass/screen.scss */
+        /* line 2348, ../sass/screen.scss */
         footer .footer-list-right div p:hover i {
           visibility: visible;
           opacity: 1; }
-      /* line 2353, ../sass/screen.scss */
+      /* line 2354, ../sass/screen.scss */
       footer .footer-list-right div a {
         font-size: 12px; }
-    /* line 2357, ../sass/screen.scss */
+    /* line 2358, ../sass/screen.scss */
     footer .footer-list-right .icon-mobile p {
       background-position: -1020px -190px; }
-    /* line 2360, ../sass/screen.scss */
+    /* line 2361, ../sass/screen.scss */
     footer .footer-list-right .icon-weibo {
       margin: 0 45px; }
-      /* line 2362, ../sass/screen.scss */
+      /* line 2363, ../sass/screen.scss */
       footer .footer-list-right .icon-weibo p {
         background-position: -1020px -318px; }
-    /* line 2366, ../sass/screen.scss */
+    /* line 2367, ../sass/screen.scss */
     footer .footer-list-right .icon-weixin p {
       background-position: -1020px -62px; }
-    /* line 2369, ../sass/screen.scss */
+    /* line 2370, ../sass/screen.scss */
     footer .footer-list-right i {
       position: absolute;
       width: 130px;
@@ -2490,7 +2491,7 @@ footer {
       visibility: hidden;
       opacity: 0;
       transition: all 0.2s linear; }
-      /* line 2381, ../sass/screen.scss */
+      /* line 2382, ../sass/screen.scss */
       footer .footer-list-right i:before {
         content: '';
         display: block;
@@ -2504,34 +2505,34 @@ footer {
         border-left: 10px solid transparent;
         border-bottom: 10px solid transparent;
         border-top: 10px solid #e5e5e5; }
-      /* line 2397, ../sass/screen.scss */
+      /* line 2398, ../sass/screen.scss */
       footer .footer-list-right i img {
         vertical-align: middle; }
 
-/* line 2405, ../sass/screen.scss */
+/* line 2406, ../sass/screen.scss */
 footer .inner .copyright {
   float: left;
   margin-top: -90px; }
-  /* line 2408, ../sass/screen.scss */
+  /* line 2409, ../sass/screen.scss */
   footer .inner .copyright-img {
     float: left;
     width: 100px;
     height: 100px;
     background: transparent url(http://static.hdslb.com/images/v2images/footpic.gif) no-repeat; }
-  /* line 2414, ../sass/screen.scss */
+  /* line 2415, ../sass/screen.scss */
   footer .inner .copyright ul {
     float: left;
     margin-left: 15px;
     height: 50px; }
-    /* line 2418, ../sass/screen.scss */
+    /* line 2419, ../sass/screen.scss */
     footer .inner .copyright ul li {
       font-size: 12px;
       color: #99A2AA;
       margin-bottom: 15px; }
-    /* line 2423, ../sass/screen.scss */
+    /* line 2424, ../sass/screen.scss */
     footer .inner .copyright ul a {
       font-size: 12px; }
-      /* line 2425, ../sass/screen.scss */
+      /* line 2426, ../sass/screen.scss */
       footer .inner .copyright ul a:before {
         content: "";
         display: inline-block;
@@ -2541,7 +2542,7 @@ footer .inner .copyright {
         vertical-align: middle;
         padding-right: 3px; }
 
-/* line 2440, ../sass/screen.scss */
+/* line 2441, ../sass/screen.scss */
 .main-mask {
   position: fixed;
   width: 100%;
@@ -2552,7 +2553,7 @@ footer .inner .copyright {
   background-color: rgba(0, 0, 0, 0.4);
   display: none; }
 
-/* line 2452, ../sass/screen.scss */
+/* line 2453, ../sass/screen.scss */
 .sidebar {
   position: fixed;
   top: 45%;
@@ -2563,7 +2564,7 @@ footer .inner .copyright {
   padding-right: 20px;
   transition: all 0.1s linear;
   z-index: 10000; }
-  /* line 2462, ../sass/screen.scss */
+  /* line 2463, ../sass/screen.scss */
   .sidebar .dragtip {
     background: rgba(255, 255, 255, 0.8) url(http://static.hdslb.com/images/v3images/tab2233.png) 20px 20px no-repeat;
     z-index: 9999;
@@ -2580,7 +2581,7 @@ footer .inner .copyright {
     visibility: hidden;
     opacity: 0;
     border-radius: 5px; }
-  /* line 2479, ../sass/screen.scss */
+  /* line 2480, ../sass/screen.scss */
   .sidebar-box {
     width: 50px;
     text-align: center;
@@ -2588,7 +2589,7 @@ footer .inner .copyright {
     position: absolute;
     z-index: 10000; }
 
-/* line 2488, ../sass/screen.scss */
+/* line 2489, ../sass/screen.scss */
 .sidebar-list {
   width: 100%;
   background-color: #f6f9fa;
@@ -2596,25 +2597,25 @@ footer .inner .copyright {
   border: 1px solid #e5e9ef;
   border-radius: 5px;
   margin-top: 15px; }
-  /* line 2495, ../sass/screen.scss */
+  /* line 2496, ../sass/screen.scss */
   .sidebar-list li {
     text-align: center;
     font-size: 12px;
     line-height: 30px;
     transition: all 0.2s linear;
     border-radius: 5px; }
-    /* line 2501, ../sass/screen.scss */
+    /* line 2502, ../sass/screen.scss */
     .sidebar-list li:hover {
       background-color: #138dc9;
       color: #fff; }
-  /* line 2506, ../sass/screen.scss */
+  /* line 2507, ../sass/screen.scss */
   .sidebar-list .on {
     background-color: #138dc9;
     color: #fff; }
-  /* line 2510, ../sass/screen.scss */
+  /* line 2511, ../sass/screen.scss */
   .sidebar-list .sort {
     border-top: 1px solid #e5e9ef; }
-    /* line 2512, ../sass/screen.scss */
+    /* line 2513, ../sass/screen.scss */
     .sidebar-list .sort:before {
       content: "";
       width: 18px;
@@ -2624,7 +2625,7 @@ footer .inner .copyright {
       margin-left: 15px;
       margin-top: 7px; }
 
-/* line 2524, ../sass/screen.scss */
+/* line 2525, ../sass/screen.scss */
 .sidebar-line {
   display: inline-block;
   vertical-align: top;
@@ -2634,7 +2635,7 @@ footer .inner .copyright {
   border-right: 1px solid #e5e9ef;
   border-left: 1px solid #e5e9ef; }
 
-/* line 2536, ../sass/screen.scss */
+/* line 2537, ../sass/screen.scss */
 .sidebar-arrow {
   width: 50px;
   height: 50px;
@@ -2642,12 +2643,12 @@ footer .inner .copyright {
   border: 1px solid #e5e9ef;
   border-radius: 5px;
   transition: all 0.2s linear; }
-  /* line 2543, ../sass/screen.scss */
+  /* line 2544, ../sass/screen.scss */
   .sidebar-arrow:hover {
     background-color: #138dc9;
     color: #fff; }
 
-/* line 2549, ../sass/screen.scss */
+/* line 2550, ../sass/screen.scss */
 .sidebar-gif {
   width: 80px;
   height: 80px;
@@ -2656,7 +2657,7 @@ footer .inner .copyright {
   margin-left: -15px;
   margin-top: 20px;
   cursor: pointer; }
-  /* line 2557, ../sass/screen.scss */
+  /* line 2558, ../sass/screen.scss */
   .sidebar-gif img {
     position: absolute;
     display: block;
@@ -2665,12 +2666,12 @@ footer .inner .copyright {
     visibility: hidden;
     opacity: 0;
     transition: all 0.2s linear; }
-  /* line 2566, ../sass/screen.scss */
+  /* line 2567, ../sass/screen.scss */
   .sidebar-gif img.show {
     visibility: visible;
     opacity: 1; }
 
-/* line 2572, ../sass/screen.scss */
+/* line 2573, ../sass/screen.scss */
 .sidebar-gif.mobile-animate-forward {
   -webkit-animation: mobile-animate-forward 0.5s;
   animation: mobile-animate-forward 0.5s;
@@ -2679,14 +2680,14 @@ footer .inner .copyright {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
 
-/* line 2581, ../sass/screen.scss */
+/* line 2582, ../sass/screen.scss */
 .sidebar-gif.mobile-animate-shake {
   -webkit-animation: mobile-animate-shake 0.2s infinite alternate;
   animation: mobile-animate-shake 0.2s infinite alternate;
   -webkit-animation-timing-function: steps(1, start);
   animation-timing-function: steps(1, start); }
 
-/* line 2588, ../sass/screen.scss */
+/* line 2589, ../sass/screen.scss */
 .sidebar-gif.mobile-animate-backward {
   -webkit-animation: mobile-animate-backward 0.5s;
   animation: mobile-animate-backward 0.5s;
@@ -2810,59 +2811,63 @@ footer .inner .copyright {
   100% {
     background-position: -1200px 0; } }
 @media screen and (max-width: 1400px) {
-  /* line 2781, ../sass/screen.scss */
+  /* line 2782, ../sass/screen.scss */
   header.navbar .inner {
     width: 980px; }
-  /* line 2785, ../sass/screen.scss */
+  /* line 2786, ../sass/screen.scss */
   header.navbar .kind-list .list-panel {
     padding: 0 10px; }
-  /* line 2788, ../sass/screen.scss */
+  /* line 2789, ../sass/screen.scss */
   header.navbar .kind-list .list-panel-square,
   header.navbar .kind-list .list-panel-live {
     left: -10px; }
-  /* line 2792, ../sass/screen.scss */
+  /* line 2793, ../sass/screen.scss */
   header.navbar .kind-list .nav-gif {
-    margin-left: 0; }
+    margin-left: -25px; }
 
-  /* line 2798, ../sass/screen.scss */
+  /* line 2799, ../sass/screen.scss */
   .main .main-inner {
     width: 980px; }
 
-  /* line 2802, ../sass/screen.scss */
+  /* line 2803, ../sass/screen.scss */
   .part1 .indextop-video {
     width: 540px; }
 
-  /* line 2805, ../sass/screen.scss */
+  /* line 2806, ../sass/screen.scss */
   .part2 .box-left {
     width: 690px; }
 
-  /* line 2808, ../sass/screen.scss */
+  /* line 2809, ../sass/screen.scss */
   .part-special .box-left {
     width: 690px;
     overflow: hidden; }
 
-  /* line 2812, ../sass/screen.scss */
+  /* line 2813, ../sass/screen.scss */
   .part-animate .box-left {
     width: 690px;
     overflow: hidden; }
 
-  /* line 2817, ../sass/screen.scss */
+  /* line 2818, ../sass/screen.scss */
   .part-animate-list .list-left,
   .part-animate-list .list-box {
     width: 690px; }
 
-  /* line 2823, ../sass/screen.scss */
+  /* line 2824, ../sass/screen.scss */
   footer .inner {
     width: 980px; }
-  /* line 2826, ../sass/screen.scss */
+  /* line 2827, ../sass/screen.scss */
   footer .footer-list-left {
     padding-right: 10px; }
-  /* line 2829, ../sass/screen.scss */
+  /* line 2830, ../sass/screen.scss */
   footer .footer-list-middle {
     padding: 0 10px; }
-  /* line 2832, ../sass/screen.scss */
+  /* line 2833, ../sass/screen.scss */
   footer .footer-list-right {
     padding-left: 70px; }
-    /* line 2834, ../sass/screen.scss */
+    /* line 2835, ../sass/screen.scss */
     footer .footer-list-right ul {
-      width: 320px; } }
+      width: 320px; }
+
+  /* line 2840, ../sass/screen.scss */
+  .sidebar {
+    top: 5%; } }
