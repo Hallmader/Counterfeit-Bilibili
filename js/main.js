@@ -13,7 +13,6 @@ $(document).ready(function() {
 
     $(".inner-section").each(function(index, el) {
         var that = $(this).attr('id');
-        console.log(that);
         $(this).find("li.live-change").click(function(e) {
             e.preventDefault();
             animationChange($(this), that);
@@ -203,6 +202,7 @@ function finishNameChange() {
 //新番列表切换
 function animationEveryDay(today) {
     var index = $(".weekDay").index(today);
+    
     $(".weekDay-active").removeClass('weekDay-show');
     today.parent().find(".weekDay-active").addClass('weekDay-show');
     $(".list-box").css({
@@ -213,7 +213,6 @@ function animationEveryDay(today) {
             opacity: 1
         },
         100);
-
 
 }
 //拖拽功能
